@@ -1,0 +1,46 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.table-row-cell:empty {
+	-fx-background-color: null;
+}
+
+.table-row-cell:empty .table-cell {
+	-fx-border-width: 0px;
+}
+
+.table-row-cell:selected {
+	-fx-background-color: green;
+}
+
+.context-menu .menu-item:hover {
+	-fx-background-color: orange;
+}
+
+.context-menu .menu-item:focus {
+	-fx-background-color: red;
+}
+
+#btConvert  {
+	-fx-background-color: blue;
+}
+
+#btClear  {
+	-fx-background-color: red; 
+}
+
+#btShuffle {
+	 -fx-background-color: orange;
+}
+
+#btSave {
+	-fx-background-color: green;
+}
+
+#btPath {
+	-fx-background-color: black;
+	-fx-text-fill: white;
+}
+
+#btConvert:hover, #btClear:hover, #btShuffle:hover, #btSave:hover  {
+	-fx-background-color: gray;
+}

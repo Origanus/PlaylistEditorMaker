@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.text.Font?>
+
+
+<TextArea editable="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="350.0" prefWidth="400.0" text="I always listen to a lot of music and I usually scroll through my music and create playlists according to the current mood I am in. In most cases I would revisit the same play lists that I created and it wouldn't play because I moved files around.&#10;&#10;For this project  I will create playlists with an option to make the files absolute path if they are in different locations or relative path if they are inside the path that I will save the path in.&#10;&#10;When I reopen my playlists it will go through the playlist and indicate the paths that nolonger exist and I will get the chance to set a new location.&#10;&#10;There is also an option to convert a playlist to a supported format.&#10;&#10;Supported playlist formats:&#10;*.m3u&#10;*.m3u8&#10;*wpl&#10;*.xspf&#10;&#10;NB! m3u and wpl playlists are saved as with ANSI encoding for windows media player. To chage go to Help &gt; Format and select Unicode.&#10;&#10;" wrapText="true" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <font>
+      <Font size="14.0" />
+   </font>
+</TextArea>
